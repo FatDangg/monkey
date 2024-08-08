@@ -1,0 +1,15 @@
+.spin {
+    animation: spin infinite 3s linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+#monkey {
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over the image */
+  }
